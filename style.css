@@ -1,0 +1,206 @@
+:root{
+    --branco: #FFFFFF;
+    --vermelho-vinho: #8E2424;
+    --cinza: #667085;
+    --cinza-claro: #EAECF0;
+    --font-family: 'Inter', sans-serif;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: var(--font-family);
+    background-color: black;
+}
+
+.menu {
+    display: flex;
+    background-color: var(--branco);
+    width: auto;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.menu__top {
+    width: 600px;
+    display: flex;
+    justify-content:space-between
+}
+
+.menu__img{
+    margin-left: -50px;
+}
+
+.menu__navegacao {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.menu__item {
+    text-decoration: none;
+    margin-right: 30px;
+    color: var(--cinza);
+} 
+
+.menu__botao{
+    display: flex;
+    position: relative;
+    margin-left: 300px;
+}
+
+.menu__botao_entrar {
+    text-decoration: none;
+    color: var(--cinza);
+    font-size: 16px;
+    padding: 12px 24px;
+}
+
+.menu__botao_cadastrar {
+    text-decoration: none;
+    font-size: 16px;
+    padding: 12px 24px;
+    color: var(--branco);
+    background-color: var(--vermelho-vinho);
+    border-radius: 8px;
+}
+
+/* Primeiro banner */
+
+.container__primeiro {
+    background-color: var(--branco);
+    width: auto;
+    height: 407px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.primeiro__itens {
+    text-align: center;
+}
+
+.primeiro__itens h5 {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--vermelho-vinho);
+    padding-bottom: 24px;
+}
+
+.primeiro__itens h2 {
+    font-size: 48px;
+    font-weight: bold;
+    padding-bottom: 24px;
+}
+
+.primeiro__itens p {
+    font-size: 20px;
+    color: var(--cinza);
+}
+
+/* Segundo banner */
+
+.container__secundario{
+    background-color: var(--branco);
+    height: 288px;
+    display: flex;
+    justify-content:center
+
+}
+
+.secundario__itens {
+    width: 280px;
+    margin-left: 20px;
+    display: block;
+    justify-items: left;
+}
+
+.secundario__itens h2 {
+    font-size: 62px;
+    font-weight: bold;
+    color: var(--vermelho-vinho);
+
+}
+
+.secundario__itens p{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0 3px 0;
+}
+
+.p2{
+    font-size: 12px;
+    color: var(--cinza);
+}
+
+/* Terceira banner */
+
+
+.container__terceario{
+    background-color: var(--branco);
+    height: 1500px;
+
+}
+
+.terceario__um{
+    padding-top: 40px;
+    text-align: center;
+    justify-items: center;
+}
+
+
+.terceario__um h5 {
+    color:#8E2424;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+    margin:  0 auto;
+}
+
+.terceario__um h2{
+    font-size: 36px;
+    font-weight: bolder;
+    margin:  20px 0;
+}
+
+.terceario__um p{
+    font-size: 20px;
+    color: var(--cinza);
+    margin: 0 0 50px 0;
+}
+
+/* Lista de cargos e valores  */
+
+.container__lista{
+    margin: 60px 360px;
+   
+}
+
+.container__lista h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.container__descricao{
+    border: 0.1px solid var(--cinza-claro);
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.container__valor{
+    display: flex;
+}
+
+.container__valor p{
+    color: var(--cinza);
+    margin: 3px 10px;
+} 
