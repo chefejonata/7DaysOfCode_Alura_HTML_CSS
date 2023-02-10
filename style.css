@@ -1,4 +1,4 @@
-:root{
+:root {
     --branco: #FFFFFF;
     --vermelho-vinho: #8E2424;
     --cinza: #667085;
@@ -8,12 +8,12 @@
 
 
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: var(--font-family);
     background-color: black;
 }
@@ -31,10 +31,10 @@ body{
 .menu__top {
     width: 600px;
     display: flex;
-    justify-content:space-between
+    justify-content: space-between
 }
 
-.menu__img{
+.menu__img {
     margin-left: -50px;
 }
 
@@ -48,9 +48,9 @@ body{
     text-decoration: none;
     margin-right: 30px;
     color: var(--cinza);
-} 
+}
 
-.menu__botao{
+.menu__botao {
     display: flex;
     position: relative;
     margin-left: 300px;
@@ -107,12 +107,11 @@ body{
 
 /* Segundo banner */
 
-.container__secundario{
+.container__secundario {
     background-color: var(--branco);
     height: 288px;
     display: flex;
-    justify-content:center
-
+    justify-content: center
 }
 
 .secundario__itens {
@@ -129,13 +128,13 @@ body{
 
 }
 
-.secundario__itens p{
+.secundario__itens p {
     font-size: 16px;
     font-weight: bold;
     margin: 10px 0 3px 0;
 }
 
-.p2{
+.p2 {
     font-size: 12px;
     color: var(--cinza);
 }
@@ -143,13 +142,13 @@ body{
 /* Terceira banner */
 
 
-.container__terceario{
+.container__terceario {
     background-color: var(--branco);
     height: 1500px;
 
 }
 
-.terceario__um{
+.terceario__um {
     padding-top: 40px;
     text-align: center;
     justify-items: center;
@@ -157,20 +156,20 @@ body{
 
 
 .terceario__um h5 {
-    color:#8E2424;
+    color: #8E2424;
     font-size: 16px;
     font-weight: bold;
     padding: 5px;
-    margin:  0 auto;
+    margin: 0 auto;
 }
 
-.terceario__um h2{
+.terceario__um h2 {
     font-size: 36px;
     font-weight: bolder;
-    margin:  20px 0;
+    margin: 20px 0;
 }
 
-.terceario__um p{
+.terceario__um p {
     font-size: 20px;
     color: var(--cinza);
     margin: 0 0 50px 0;
@@ -178,29 +177,128 @@ body{
 
 /* Lista de cargos e valores  */
 
-.container__lista{
+.container__lista {
     margin: 60px 360px;
-   
+
 }
 
-.container__lista h3{
+.container__lista h3 {
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 25px;
 }
 
-.container__descricao{
+.container__descricao {
     border: 0.1px solid var(--cinza-claro);
     border-radius: 10px;
     padding: 15px;
     margin-bottom: 20px;
 }
 
-.container__valor{
+.container__valor {
     display: flex;
 }
 
-.container__valor p{
+.container__valor p {
     color: var(--cinza);
     margin: 3px 10px;
-} 
+}
+
+
+/* Banner quarto */
+
+.container__quarto {
+    background-color: var(--branco);
+    height: 400px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.quarto__container {
+    height: 350px;
+    text-align: center;
+
+}
+
+.quarto__container h5 {
+    color: #8E2424;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.quarto__container h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    margin: 16px 0px;
+}
+
+.quarto__container p {
+    font-weight: bolder;
+    margin: 15px 0 10px 0;
+}
+
+.p2 {
+    font-size: 12px;
+    color: var(--cinza);
+}
+
+
+/* Rodapé */
+
+.container__quinto {
+    background-color: var(--branco);
+    height: 300px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.quinto__container {
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.quinto__container h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    margin: 16px 0px;
+}
+
+.quinto__container p {
+    margin: 15px 0 10px 0;
+    font-size: 16px;
+}
+
+.quinto__btm {
+    margin: 30px 0;
+}
+
+.btm__input {
+    height: 35px;
+    width: 300px;
+    border: var(--cinza-claro) solid 1px;
+    border-radius: 8px;
+}
+
+.btm__input::placeholder {
+    padding-left: 15px;
+}
+
+.btm__cadastrar {
+    border: none;
+    font-size: 16px;
+    padding: 12px 24px;
+    color: var(--branco);
+    background-color: var(--vermelho-vinho);
+    border-radius: 8px;
+}
+
+.p3 {
+    font-size: 12px;
+    color: var(--cinza-claro);
+    font-size: 24px;
+}
